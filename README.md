@@ -11,5 +11,7 @@ This a [Factorio](https://factorio.com/) mod that replaces all fish with [BLÅHA
 
 ![a screenshot of the spidertron crafting recipe](https://raw.githubusercontent.com/ading2210/factorio-blahaj/main/screenshots/blahaj_spidertron.png)
 
+![a screenshot of the destroyed spidertron](https://raw.githubusercontent.com/ading2210/factorio-blahaj/main/screenshots/blahaj_spidertron_destroyed.png)
+
 ## Copyright:
 This mod is licensed under the MIT License.
