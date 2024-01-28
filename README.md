@@ -10,3 +10,6 @@ This a [Factorio](https://factorio.com/) mod that replaces all fish with [BLAHAJ
 ![a screenshot of the blahaj item tooltip](https://raw.githubusercontent.com/ading2210/factorio-blahaj/main/screenshots/blahaj_tooltip.png)
 
 ![a screenshot of the spidertron crafting recipe](https://raw.githubusercontent.com/ading2210/factorio-blahaj/main/screenshots/blahaj_spidertron.png)
+
+## Copyright:
+This mod is licensed under the MIT License.
