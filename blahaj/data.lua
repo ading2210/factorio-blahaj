@@ -1,5 +1,5 @@
-data.raw["capsule"]["raw-fish"].localised_name = "BLAHAJ"
-data.raw["capsule"]["raw-fish"].localised_description = "A cute BLAHAJ. Left click to cuddle with it and gain some health."
+data.raw["capsule"]["raw-fish"].localised_name = "BLÅHAJ"
+data.raw["capsule"]["raw-fish"].localised_description = "A cute BLÅHAJ. Left click to cuddle with it and gain some health."
 
 data.raw["capsule"]["raw-fish"].icon = "__blahaj__/graphics/blahaj_full.png"
 data.raw["capsule"]["raw-fish"].icon_size = 512
@@ -34,7 +34,7 @@ data.raw["capsule"]["raw-fish"].capsule_action = {
 }
 
 
-data.raw["fish"]["fish"].localised_name = "BLAHAJ"
+data.raw["fish"]["fish"].localised_name = "BLÅHAJ"
 data.raw["fish"]["fish"].icon = "__blahaj__/graphics/blahaj_full.png"
 data.raw["fish"]["fish"].icon_size = 512
 data.raw["fish"]["fish"].pictures = {

@@ -1,6 +1,6 @@
-# BLAHAJ Factorio Mod
+# BLÅHAJ Factorio Mod
 
-This a [Factorio](https://factorio.com/) mod that replaces all fish with [BLAHAJ](https://en.wikipedia.org/wiki/Bl%C3%A5haj).
+This a [Factorio](https://factorio.com/) mod that replaces all fish with [BLÅHAJ](https://en.wikipedia.org/wiki/Bl%C3%A5haj).
 
 ![mod icon](https://raw.githubusercontent.com/ading2210/factorio-blahaj/main/blahaj/thumbnail.png)
 
