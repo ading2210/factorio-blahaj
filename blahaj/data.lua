@@ -43,5 +43,11 @@ data.raw["fish"]["fish"].pictures = {
     priority = "extra-high",
     width = 32,
     height = 32
+  },
+  { -- some mods expect there to be two fish images
+    filename = "__blahaj__/graphics/blahaj_entity.png",
+    priority = "extra-high",
+    width = 32,
+    height = 32
   }
 }
