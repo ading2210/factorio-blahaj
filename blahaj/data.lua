@@ -7,15 +7,13 @@ data.raw["capsule"]["raw-fish"].icon =
 data.raw["capsule"]["raw-fish"].icon_size = 512
 data.raw["capsule"]["raw-fish"].capsule_action = {
     type = "use-on-self",
-    uses_stack = false,
     attack_parameters = {
         type = "projectile",
-        ammo_category = "capsule",
         activation_type = "consume",
-        range = 0,
+        ammo_category = "capsule",
         cooldown = 120,
+        range = 0,
         ammo_type = {
-            category = "capsule",
             target_type = "position",
             action = {
                 type = "direct",
@@ -24,8 +22,9 @@ data.raw["capsule"]["raw-fish"].capsule_action = {
                     target_effects = {
                         {
                             type = "damage",
-                            damage = {amount = -20, type = "physical"}
-                        }
+                            damage = {type = "physical", amount = -20},
+                            use_substitute = false
+                        }, {type = "play-sound", sound = sounds.eat_fish}
                     }
                 }
             }
