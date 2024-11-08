@@ -1,5 +1,3 @@
-require("sounds.soundvariation")
-
 data.raw["capsule"]["raw-fish"].localised_name = "BLÅHAJ"
 data.raw["capsule"]["raw-fish"].localised_description =
     "A cute BLÅHAJ. Left click to cuddle with it and gain some health."
@@ -26,12 +24,7 @@ data.raw["capsule"]["raw-fish"].capsule_action = {
                             type = "damage",
                             damage = {type = "physical", amount = -20},
                             use_substitute = false
-                        },
-                        {
-                            type = "play-sound",
-                            sound = sound_variations("__base__/sound/eat", 5,
-                                                     0.6)
-                        }
+                        }, {type = "play-sound", sound = sounds.eat_fish}
                     }
                 }
             }
