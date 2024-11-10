@@ -1,5 +1,6 @@
+-- change fish item name and graphics
 data.raw["capsule"]["raw-fish"].localised_name = "BLÅHAJ"
-data.raw["capsule"]["raw-fish"].localised_description = "A cute BLÅHAJ. Left click to cuddle with it and gain some health."
+data.raw["capsule"]["raw-fish"].localised_description = "A cute BLÅHAJ. Right click to cuddle with it and gain some health."
 
 data.raw["capsule"]["raw-fish"].icon = "__blahaj__/graphics/blahaj/blahaj_full.png"
 data.raw["capsule"]["raw-fish"].icon_size = 512
@@ -34,7 +35,11 @@ data.raw["capsule"]["raw-fish"].capsule_action = {
   }
 }
 
+-- do not spoil the blahaj
+data.raw["capsule"]["raw-fish"].spoil_result = nil
+data.raw["capsule"]["raw-fish"].spoil_ticks = nil
 
+-- change fish entity name and graphics
 data.raw["fish"]["fish"].localised_name = "BLÅHAJ"
 data.raw["fish"]["fish"].icon = "__blahaj__/graphics/blahaj/blahaj_full.png"
 data.raw["fish"]["fish"].icon_size = 512
