@@ -8,6 +8,7 @@ data.raw["capsule"]["raw-fish"].capsule_action = {
   uses_stack = false,
   attack_parameters = {
     type = "projectile",
+    ammo_category = "biological",
     activation_type = "activate",
     range = 0,
     cooldown = 120,
@@ -54,4 +55,3 @@ data.raw["fish"]["fish"].pictures = {
 
 -- destroyed spidertron textures
 data.raw["corpse"]["spidertron-remnants"].animation[1].layers[1].filename = "__blahaj__/graphics/spidertron/spidertron-remnants.png"
-data.raw["corpse"]["spidertron-remnants"].animation[1].layers[1].hr_version.filename = "__blahaj__/graphics/spidertron/hr-spidertron-remnants.png"
