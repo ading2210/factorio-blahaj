@@ -1,9 +1,9 @@
 {
   "name": "blahaj",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "title": "BLÅHAJ",
   "author": "ading2210",
   "factorio_version": "2.0",
-  "dependencies": ["base >= 1.1", "? space-age"],
+  "dependencies": ["base >= 2.0"],
   "description": "Replaces the raw fish item with a cute BLÅHAJ"
 }
